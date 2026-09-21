@@ -1,0 +1,21 @@
+{
+  "name": "Safe Communities & GBV Response",
+  "short_name": "SafeComm",
+  "description": "Help, hope, and safety for South Africa. Emergency contacts, location sharing, and child-friendly support.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F1EB",
+  "theme_color": "#0F4C5C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "social"],
+  "lang": "en-ZA",
+  "dir": "ltr"
+}

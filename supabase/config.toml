@@ -1,0 +1,11 @@
+[functions.submit-report]
+verify_jwt = false
+
+[functions.check-status]
+verify_jwt = false
+
+[functions.delete-report]
+verify_jwt = false
+
+[functions.responder-api]
+verify_jwt = true

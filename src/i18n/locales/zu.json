@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Amakomishini Aphephile & Impendulo ye-GBV",
+    "tagline": "Usizo, ithemba, nokuphepha eNingizimu Afrika"
+  },
+  "landing": {
+    "title": "Awusedwa",
+    "subtitle": "Khetha indlela ofuna ukuyisebenzisa ngayo le app. Ungashintsha noma kunini.",
+    "adultMode": "Imodi Yabadala",
+    "youthMode": "Imodi Yabantwana",
+    "quickExit": "Phuma Ngokushesha",
+    "language": "Ulimi"
+  },
+  "emergency": {
+    "title": "Amanani Wezimo Eziphuthumayo",
+    "call": "Shayela",
+    "free": "Mahhala",
+    "loading": "Kulayisha..."
+  },
+  "common": {
+    "back": "Emuva",
+    "home": "Ekhaya"
+  }
+}

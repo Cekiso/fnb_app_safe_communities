@@ -1,0 +1,82 @@
+Safe Communities & GBV Response
+Portfolio Source-Available License (All Rights Reserved)
+
+Copyright (c) 2026 Nonkululeko Cikiso. All rights reserved.
+
+1. OWNERSHIP
+The software, source code, documentation, designs, text, illustrations,
+mascot, learning content and other materials in this repository (the "Work")
+are the original creation of Nonkululeko Cikiso (the "Owner"). No ownership is
+transferred to you by viewing, downloading or running the Work.
+
+2. PERMITTED USE
+You may, free of charge and for non-commercial purposes only:
+  (a) view and read the source code;
+  (b) clone or download a copy and run it locally to evaluate it, for
+      example as part of a job application, recruitment review or
+      educational assessment;
+  (c) quote short excerpts with clear credit to the Owner for the purpose
+      of review or commentary.
+
+3. RESTRICTIONS
+Without the Owner's prior written permission, you may NOT:
+  (a) copy, modify, adapt, translate or create derivative works of the Work;
+  (b) distribute, publish, sublicense, sell, rent or lease the Work or any
+      part of it;
+  (c) deploy, host or operate the Work, or any derivative of it, as a
+      public or production service, website or mobile application
+      (including on the Google Play Store or Apple App Store);
+  (d) use the Work for any commercial purpose;
+  (e) remove or alter any copyright, license or attribution notice;
+  (f) use the Work, its name, or its mascot to suggest endorsement by, or
+      affiliation with, the Owner;
+  (g) use the Work to train machine-learning models.
+
+4. SAFETY-CRITICAL USE
+The Work concerns gender-based violence (GBV) and the safety of vulnerable
+people, including children. It is a portfolio demonstration and has NOT
+undergone legal, child-protection, privacy (POPIA) or independent security
+review. It must not be relied on as, or deployed as, a real reporting,
+safeguarding or emergency service. It is not a substitute for the police,
+emergency services, healthcare providers or trained support organisations.
+In an emergency, contact the South African Police Service (10111), emergency
+services (112), or another appropriate service.
+
+Any real-world deployment requires the Owner's written permission AND prior
+professional legal review (including POPIA and the Children's Act), a
+security audit, and verification of all emergency and support-service
+information.
+
+5. THIRD-PARTY COMPONENTS
+The Work uses open-source libraries and services (for example React,
+Tailwind CSS, Supabase, Leaflet and OpenStreetMap data). These remain
+under their own licenses, which continue to apply to them. This license
+covers only the Owner's original material.
+
+6. DATA AND CONTACT INFORMATION
+Emergency numbers, service listings and sample data included in the Work
+are provided for demonstration only. They may be incomplete, outdated or
+incorrect and must be independently verified with the relevant
+organisation before anyone relies on them.
+
+7. NO WARRANTY
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, ACCURACY, SECURITY OR NON-INFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE OWNER SHALL NOT BE LIABLE FOR
+ANY CLAIM, DAMAGES, LOSS OR HARM (INCLUDING PERSONAL INJURY OR DATA LOSS)
+ARISING FROM THE USE OF, OR INABILITY TO USE, THE WORK.
+
+9. TERMINATION
+This license terminates automatically if you breach any of its terms. On
+termination you must stop using the Work and delete all copies.
+
+10. GOVERNING LAW
+This license is governed by the laws of the Republic of South Africa.
+
+11. PERMISSIONS AND CONTACT
+To request permission for any use not granted above (including
+collaboration, non-profit deployment or commercial licensing), contact:
+Nonkululeko Cikiso - https://github.com/Cekiso

@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Veilige Gemeenskappe & GBV Reaksie",
+    "tagline": "Hulp, hoop, en veiligheid vir Suid-Afrika"
+  },
+  "landing": {
+    "title": "Jy is nie alleen nie",
+    "subtitle": "Kies hoe jy hierdie toep wil gebruik. Jy kan enige tyd skakel.",
+    "adultMode": "Volwasse Modus",
+    "youthMode": "Jong Persoon Modus",
+    "quickExit": "Vinnige Uitgang",
+    "language": "Taal"
+  },
+  "emergency": {
+    "title": "Noodnommers",
+    "call": "Bel",
+    "free": "Gratis",
+    "loading": "Laai tans..."
+  },
+  "common": {
+    "back": "Terug",
+    "home": "Tuis"
+  }
+}

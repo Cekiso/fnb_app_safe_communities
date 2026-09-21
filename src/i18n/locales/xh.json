@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Iindawo Zokhuseleko & Impendulo ye-GBV",
+    "tagline": "Uncedo, ithemba, nokhuseleko eMzantsi Afrika"
+  },
+  "landing": {
+    "title": "Awusedwa",
+    "subtitle": "Khetha indlela ofuna ukuyisebenzisa ngayo le app. Ungatshintsha nanini na.",
+    "adultMode": "Imodi Yabadala",
+    "youthMode": "Imodi Yabantwana",
+    "quickExit": "Phuma Ngokukhawuleza",
+    "language": "Ulwimi"
+  },
+  "emergency": {
+    "title": "Iinombolo Zemiba Eziphuthumayo",
+    "call": "Rhwalisa",
+    "free": "Mahala",
+    "loading": "Kulayisha..."
+  },
+  "common": {
+    "back": "Emva",
+    "home": "Ekhaya"
+  }
+}

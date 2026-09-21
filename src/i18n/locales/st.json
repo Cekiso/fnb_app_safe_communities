@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Dikomiti tsa Polokeho & Karabelo ya GBV",
+    "tagline": "Thuso, tsholofelo, le polokeho Afrika Borwa"
+  },
+  "landing": {
+    "title": "Ha o nofe mong",
+    "subtitle": "Kgetha mokhoa o o batlang ho o sebelisa. O ka fetola nako le nako.",
+    "adultMode": "Mokhoa wa Baholo",
+    "youthMode": "Mokhoa wa Bana",
+    "quickExit": "Tswa Ka Potego",
+    "language": "Puo"
+  },
+  "emergency": {
+    "title": "Dinomoro tsa Maemo a Tlhokomelo",
+    "call": "Letsetsa",
+    "free": "Mahala",
+    "loading": "E hlahisa..."
+  },
+  "common": {
+    "back": "Morao",
+    "home": "Hae"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "app": {
+    "name": "Safe Communities & GBV Response",
+    "tagline": "Help, hope, and safety for South Africa"
+  },
+  "landing": {
+    "title": "You are not alone",
+    "subtitle": "Choose how you'd like to use this app. You can switch at any time.",
+    "adultMode": "Adult Mode",
+    "adultModeDesc": "Find verified support services, share your location, report GBV, and learn about your rights.",
+    "youthMode": "Young Person Mode",
+    "youthModeDesc": "A friendly space for children and teens. Get help, find safe people, and learn about staying safe.",
+    "chooseMode": "Choose your mode",
+    "enterAdult": "Enter Adult Mode",
+    "enterYouth": "Enter Young Person Mode",
+    "quickExit": "Quick Exit",
+    "quickExitHint": "Press this button or press Escape twice to leave immediately",
+    "language": "Language"
+  },
+  "emergency": {
+    "title": "Emergency Contacts",
+    "subtitle": "Tap any number to call. These are free, verified South African helplines.",
+    "search": "Search contacts...",
+    "all": "All",
+    "general": "General",
+    "police": "Police",
+    "medical": "Medical",
+    "gbv": "GBV Support",
+    "child": "Child Safety",
+    "mental": "Mental Health",
+    "trafficking": "Trafficking",
+    "call": "Call",
+    "callAlt": "Call Alternative",
+    "free": "Free",
+    "freeCall": "Free Call",
+    "hours": "Hours",
+    "languages": "Languages",
+    "verified": "Verified",
+    "verifiedOn": "Verified on {{date}}",
+    "loading": "Loading emergency contacts...",
+    "error": "Could not load contacts. Please check your connection.",
+    "offlineNotice": "Showing saved contacts (offline). Some details may be outdated.",
+    "retry": "Retry",
+    "categories": {
+      "general": "General Emergency",
+      "police": "Police",
+      "medical": "Medical",
+      "gbv": "Gender-Based Violence",
+      "child": "Child Protection",
+      "mental": "Mental Health",
+      "trafficking": "Human Trafficking"
+    }
+  },
+  "adult": {
+    "home": "Home",
+    "emergency": "Emergency",
+    "services": "Find Services",
+    "locationShare": "Share Location",
+    "reports": "Report",
+    "resources": "Resources",
+    "trustedCircle": "Trusted Circle",
+    "account": "Account",
+    "welcome": "Welcome",
+    "sos": "SOS"
+  },
+  "youth": {
+    "welcome": "Hi! I'm {{mascot}}. I'm here to help you.",
+    "mascotName": "Sizwe",
+    "needHelp": "I Need Help",
+    "dontFeelSafe": "I Don't Feel Safe",
+    "safePeople": "My Safe People",
+    "learnPlay": "Learn & Play",
+    "feelingCheck": "How am I feeling today?",
+    "quickExit": "Leave"
+  },
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "home": "Home",
+    "yes": "Yes",
+    "no": "No",
+    "settings": "Settings"
+  },
+  "quickExit": {
+    "label": "Quick Exit",
+    "redirecting": "Leaving..."
+  }
+}
