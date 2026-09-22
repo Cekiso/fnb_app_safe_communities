@@ -3,8 +3,10 @@ import { useTranslation } from 'react-i18next';
 import { BookOpen, AlertCircle, RefreshCw, ChevronRight, ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { supabase, type LearningContent } from '@/lib/supabase';
 import { QuickExit } from '@/components/QuickExit';
+import { useNavigate } from 'react-router';
 
 export function Resources() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const [articles, setArticles] = useState<LearningContent[]>([]);
   const [loading, setLoading] = useState(true);
@@ -43,6 +45,16 @@ export function Resources() {
     return (
       <div className="min-h-screen bg-adult-sand">
         <QuickExit />
+        <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-sm">
+        <div className="mx-auto max-w-3xl px-4 py-3">
+          <button
+            onClick={() => navigate('/adult')}
+            className="flex items-center gap-2 rounded-full bg-youth-cream px-4 py-2 text-sm font-semibold text-youth-navy"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back
+          </button>
+        </div>
+      </header>
         <div className="mx-auto max-w-2xl px-4 py-6">
           <button
             onClick={() => { setSelected(null); setQuizAnswers({}); setQuizSubmitted(false); }}

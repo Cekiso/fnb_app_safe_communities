@@ -1,9 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Share2, Square, AlertCircle, Loader2, MapPin, Copy, MessageCircle, Phone } from 'lucide-react';
+import { Share2, Square, AlertCircle, Loader2, MapPin, Copy, MessageCircle, Phone, ArrowLeft } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { generateToken, hashToken } from '@/lib/utils';
 import { QuickExit } from '@/components/QuickExit';
+import { useNavigate } from 'react-router';
 
 const DURATIONS = [
   { value: 15, label: '15 minutes' },
@@ -13,6 +14,7 @@ const DURATIONS = [
 ];
 
 export function LocationShare() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const [nickname, setNickname] = useState('');
   const [phone, setPhone] = useState('');
@@ -140,6 +142,16 @@ export function LocationShare() {
     return (
       <div className="min-h-screen bg-adult-sand">
         <QuickExit />
+        <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-sm">
+        <div className="mx-auto max-w-3xl px-4 py-3">
+          <button
+            onClick={() => navigate('/adult')}
+            className="flex items-center gap-2 rounded-full bg-youth-cream px-4 py-2 text-sm font-semibold text-youth-navy"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back
+          </button>
+        </div>
+      </header>
         <div className="mx-auto max-w-lg px-4 py-6">
           <div className="mb-4 flex items-center gap-2 rounded-2xl bg-green-50 p-4 ring-1 ring-green-200">
             <div className="h-3 w-3 animate-pulse rounded-full bg-green-500" />
@@ -191,6 +203,7 @@ export function LocationShare() {
   return (
     <div className="min-h-screen bg-adult-sand">
       <QuickExit />
+      
       <div className="sticky top-0 z-30 bg-white/95 backdrop-blur-sm shadow-sm">
         <div className="mx-auto max-w-2xl px-4 py-4">
           <h1 className="font-heading text-xl font-bold text-adult-navy">{t('adult.locationShare')}</h1>

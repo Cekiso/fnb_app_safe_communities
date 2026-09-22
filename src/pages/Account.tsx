@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { UserCircle, LogIn, UserPlus, LogOut, Shield, Eye, EyeOff, Download, Trash2, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { UserCircle, LogIn, UserPlus, LogOut, Shield, Eye, EyeOff, Download, Trash2, AlertCircle, CheckCircle2, ArrowLeft } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import { useApp } from '@/context/AppContext';
 import { supabase } from '@/lib/supabase';
 import { QuickExit } from '@/components/QuickExit';
+import { useNavigate } from 'react-router-dom';
 
 export function Account() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const { session, profile, loading, signIn, signUp, signOut } = useAuth();
   const { discreetMode, setDiscreetMode, reduceMotion, setReduceMotion } = useApp();
@@ -182,6 +184,16 @@ export function Account() {
   return (
     <div className="min-h-screen bg-adult-sand">
       <QuickExit />
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-sm">
+        <div className="mx-auto max-w-3xl px-4 py-3">
+          <button
+            onClick={() => navigate('/adult')}
+            className="flex items-center gap-2 rounded-full bg-youth-cream px-4 py-2 text-sm font-semibold text-youth-navy"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back
+          </button>
+        </div>
+      </header>
       <div className="mx-auto flex min-h-screen max-w-md flex-col justify-center px-4 py-12">
         <div className="mb-6 text-center">
           <div className="mb-3 inline-flex items-center justify-center rounded-full bg-adult-teal/10 p-4">

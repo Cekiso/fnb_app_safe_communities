@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Users, Plus, Trash2, AlertCircle, Phone } from 'lucide-react';
+import { Users, Plus, Trash2, AlertCircle, Phone, ArrowLeft } from 'lucide-react';
 import { supabase, type TrustedContact } from '@/lib/supabase';
 import { useAuth } from '@/context/AuthContext';
 import { QuickExit } from '@/components/QuickExit';
+import { useNavigate } from 'react-router-dom';
 
 export function TrustedCircle() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const { session } = useAuth();
   const [contacts, setContacts] = useState<TrustedContact[]>([]);
@@ -86,6 +88,16 @@ export function TrustedCircle() {
   return (
     <div className="min-h-screen bg-adult-sand">
       <QuickExit />
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-sm">
+        <div className="mx-auto max-w-3xl px-4 py-3">
+          <button
+            onClick={() => navigate('/adult')}
+            className="flex items-center gap-2 rounded-full bg-youth-cream px-4 py-2 text-sm font-semibold text-youth-navy"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back
+          </button>
+        </div>
+      </header>
       <div className="sticky top-0 z-30 bg-white/95 backdrop-blur-sm shadow-sm">
         <div className="mx-auto max-w-3xl px-4 py-4">
           <h1 className="font-heading text-xl font-bold text-adult-navy">{t('adult.trustedCircle')}</h1>

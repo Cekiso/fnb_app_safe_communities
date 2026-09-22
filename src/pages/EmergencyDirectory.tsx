@@ -1,7 +1,8 @@
 import { useState, useMemo, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, Search, AlertCircle, RefreshCw, CheckCircle2, Clock, Globe2 } from 'lucide-react';
+import { Phone, Search, AlertCircle, RefreshCw, CheckCircle2, Clock, Globe2, ArrowLeft } from 'lucide-react';
 import { supabase, type EmergencyContact } from '@/lib/supabase';
+import { useNavigate } from 'react-router';
 import { QuickExit } from '@/components/QuickExit';
 
 const CACHE_KEY = 'emergency_contacts_cache';
@@ -9,6 +10,7 @@ const CACHE_TIME_KEY = 'emergency_contacts_cache_time';
 const CATEGORIES = ['all', 'general', 'police', 'medical', 'gbv', 'child', 'mental', 'trafficking'];
 
 export function EmergencyDirectory() {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const [contacts, setContacts] = useState<EmergencyContact[]>([]);
   const [loading, setLoading] = useState(true);
@@ -92,6 +94,16 @@ export function EmergencyDirectory() {
   return (
     <div className="min-h-screen bg-adult-sand">
       <QuickExit />
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-sm">
+        <div className="mx-auto max-w-3xl px-4 py-3">
+          <button
+            onClick={() => navigate('/adult')}
+            className="flex items-center gap-2 rounded-full bg-youth-cream px-4 py-2 text-sm font-semibold text-youth-navy"
+          >
+            <ArrowLeft className="h-4 w-4" /> Back
+          </button>
+        </div>
+      </header>
 
       {/* Header */}
       <div className="sticky top-0 z-30 bg-white/95 backdrop-blur-sm shadow-sm">
